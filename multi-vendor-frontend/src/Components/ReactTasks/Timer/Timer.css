@@ -1,0 +1,21 @@
+.ticket {
+    height: 60px;
+    width: 260px;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(55, 53, 53);
+    color: antiquewhite;
+}
+
+.container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.btn {
+    border-radius: 20px;
+}
