@@ -1,5 +1,7 @@
 import React from 'react';
-import Timer from './Components/ReactTasks/Timer/Timer';
+// import CrudApp from './Components/ReactTasks/CrudApplication/CrudApp';
+import CrudTask from './Components/ReactTasks/CrudApplication/CrudTask';
+// import Timer from './Components/ReactTasks/Timer/Timer';
 // import Caleculator from './Components/ReactTasks/Calculator/Caleculator';
 // import Dynamic from './Components/ReactTasks/DynamicChangingNumbers/Dynamic';
 
@@ -8,7 +10,9 @@ function App() {
     <div className="App">
       {/* <Caleculator /> */}
       {/* <Dynamic /> */}
-      <Timer />
+      {/* <Timer /> */}
+      {/* <CrudApp /> */}
+      <CrudTask />
     </div>
   );
 }
