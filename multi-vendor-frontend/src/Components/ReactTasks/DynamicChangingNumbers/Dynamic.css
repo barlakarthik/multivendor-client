@@ -1,0 +1,20 @@
+.container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+.card {
+    width: 18%;
+    height: 40%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: black;
+    color: antiquewhite;
+}
