@@ -84,33 +84,6 @@
 
 // export default App
 
-import React from 'react'
-import About from './Components/Rise/HippoCloud/About'
-import Add from './Components/Rise/HippoCloud/Add'
-import Edit from './Components/Rise/HippoCloud/Edit'
-import Home from './Components/Rise/HippoCloud/Home'
-import View from './Components/Rise/HippoCloud/View'
-import NavBar from './Components/Rise/layout/NavBar'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import PageNotFound from './Components/Rise/HippoCloud/PageNotFound'
-const App = () => {
-  return (
-    <Router>
-      <div className='contaner'>
-        <NavBar>
-          <Routes>
-            <Route exact path='/' element={<Home />} />
-            <Route exact path='/about' element={<About />} />
-            <Route exact path='/add/user' element={<Add />} />
-            <Route exact path='*' element={<PageNotFound />} />
-          </Routes>
-        </NavBar>
-      </div>
-    </Router>
-  )
-}
-
-export default App
 
 
 
