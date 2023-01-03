@@ -43,7 +43,6 @@ class CrudTask extends Component {
 
     onSubmitEditTodo = (e) => {
         e.preventDefault();
-
         this.onEditTodo(this.state.currentid, this.state.currentValue);
         this.setState({ editing: false });
     };
@@ -61,7 +60,6 @@ class CrudTask extends Component {
     render() {
         return (
             <>
-
                 <div className="App">
                     {this.state.editing === false ? (
                         <form onSubmit={this.onAddTask}>
