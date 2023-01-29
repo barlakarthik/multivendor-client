@@ -1,5 +1,8 @@
 import React from 'react';
-import FunctionalCrud from './Components/ReactTasks/CrudApplication/FunctionalCrud';
+import TodoMangement from './Components/ReactTasks/TodoMangement';
+// import ClassCrud from './Components/ReactTasks/CrudApplication/ClassCrud';
+// import FunctionalCrud from './Components/ReactTasks/CrudApplication/FunctionalCrud';
+// import Sample from './Components/ReactTasks/CrudApplication/Sample';
 // import CrudApp from './Components/ReactTasks/CrudApplication/CrudApp';
 // import CrudTask from './Components/ReactTasks/CrudApplication/CrudTask';
 // // import Timer from './Components/ReactTasks/Timer/Timer';
@@ -14,7 +17,10 @@ function App() {
       {/* <Timer /> */}
       {/* <CrudApp /> */}
       {/* <CrudTask /> */}
-      <FunctionalCrud/>
+      {/* <FunctionalCrud/> */}
+      {/* <Sample/> */}
+      {/* <ClassCrud/> */}
+      <TodoMangement/>
     </div>
   );
 }
